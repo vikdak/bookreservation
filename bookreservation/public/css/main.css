@@ -1,0 +1,149 @@
+html {
+    height: 100vh;
+    background-color: #eee2dc;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 500px;
+}
+
+.container-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 400px;
+}
+
+.card-header {
+    position: relative
+}
+
+.card-header a {
+    position: relative;
+    padding: 0 0;
+    width: 100%;
+    height: 400px;
+}
+
+.card-header img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card-header .reservedImg {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    min-height: 250px;
+}
+
+.card-body p {
+    font-size: 13px;
+    margin: 0 0 40px;
+}
+
+.button {
+    border: 0;
+    background: #fff;
+    border-radius: 3px;
+    margin-top: 10px;
+    color: #ac3b61;
+    letter-spacing: 1px;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.displayNone {
+    display: none;
+}
+
+.reserved {
+    font-weight: bolder;
+    align-self: center;
+    cursor: pointer;
+}
+
+section {
+    width: 100%;
+    padding: 12px 15px;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+}
+
+h1  {
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+
+.message {
+    text-align: center;
+    margin: 3px;
+    float: left;
+    clear: both;
+    max-width: 300px;
+    min-width: 100px;
+    padding: 12px 15px;
+    box-shadow: 1px 1px 4px 1px grey;
+    background-color: grey;
+    color: whitesmoke;
+}
+
+.message-header{
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    margin-block-end: 0.83em;
+    font-weight: bold;
+}
+.message-wrapper{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.success {
+    color: darkcyan;
+    background-color: cornsilk;
+    border-color: cornsilk;
+}
+
+.danger {
+    color: darkred;
+    background-color: cornsilk;
+    border-color: cornsilk;
+}
+
